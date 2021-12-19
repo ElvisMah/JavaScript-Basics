@@ -1,0 +1,15 @@
+#clock {
+  font-size: 100px;
+}
+section {
+  padding: 2% 0;
+}
+
+.info {
+  background-color: blueviolet;
+  color: white;
+}
+
+section .card {
+  color: gray;
+}
