@@ -52,3 +52,84 @@
 // betterItems.forEach(function(i){
 //     console.log(i);
 // });
+
+// getElementsByClassName('className'); // multiple elements
+// node-list = array-like
+// index, length property but not array methods
+
+// const fruits = document.getElementsByClassName('special');
+
+// console.log(fruits);
+// fruits[0].style.color= 'orange';
+
+// querySelector('any css'); selects single(first element)
+// querySelectorAll('any css'); selects all and ou can user forEach
+
+// const fruits = document.querySelector('.special');
+
+// console.log(fruits);
+// fruits.style.color='orange';
+
+// const lastChild = document.querySelector('li:last-child');
+// lastChild.style.color="blue"
+
+// const list = document.querySelectorAll('.special');
+// console.log(list);
+
+// list.forEach(function(item){
+//     console.log(item);
+//     item.style.color = 'pink'
+// })
+
+// childNodes -returns all childNodes including whitespace which is treated as text
+
+// const fruits = document.querySelector('#fruits');
+// console.log(fruits);
+
+// // children
+// const allChildren = fruits.lastChild;
+// console.log(allChildren);
+
+// Parent Element you can chain 
+// const heading2 = document.querySelector('h2');
+// console.log(heading2.parentElement);
+
+// const bg = heading2.parentElement;
+// bg.style.backgroundColor = 'orange';
+
+// previousSibling
+// nextSibling
+// return whitespace
+
+// const first = document.querySelector('.first')
+// first.style.color = 'orange';
+
+// const second = first.nextSibling.nextSibling;
+// second.style.color = 'red';
+// console.log(second);
+
+// getAttribute
+// setAttribute
+
+// const first = document.querySelector('.first');
+// const classValue = first.getAttribute('id');
+// console.log(classValue);
+
+// const link = document.getElementById('link');
+
+// const pants = link.nextElementSibling;
+// pants.setAttribute('class', 'soccer');
+
+// className - can be overwritten by accident
+// classList - to add class
+
+let first = document.getElementById('first');
+let second = document.getElementById('second');
+
+const classValue = first.className;
+console.log(classValue);
+
+first.className = 'first dshgkldfjsg';
+
+second.classList.add('bla', 'gdfg');
+second.classList.remove('bla');
