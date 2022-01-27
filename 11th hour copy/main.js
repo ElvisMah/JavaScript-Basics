@@ -200,17 +200,17 @@
 
 // submit
 
-const form = document.getElementById('form');
-const name = document.getElementById('name');
-const password = document.getElementById('password');
+// const form = document.getElementById('form');
+// const name = document.getElementById('name');
+// const password = document.getElementById('password');
 
-form.addEventListener('submit', function(e){
-    e.preventDefault();
-    console.log('form submited');
-    console.log(name.value);
-    console.log(password.value);
-    let name = name.value;
-});
+// form.addEventListener('submit', function(e){
+//     e.preventDefault();
+//     console.log('form submited');
+//     console.log(name.value);
+//     console.log(password.value);
+//     let name = name.value;
+// });
 
 // web storage API - provided by browser
 // session storage and local storage
@@ -228,23 +228,38 @@ form.addEventListener('submit', function(e){
 
 // JSON.stringify() and JSON.parse()
 
-const friends = ['alex', 'el', 'elvis'];
-localStorage.setItem('friends', JSON.stringify(friends));
+// const friends = ['alex', 'el', 'elvis'];
+// localStorage.setItem('friends', JSON.stringify(friends));
 
-const values = JSON.parse(localStorage.getItem('friends'));
+// const values = JSON.parse(localStorage.getItem('friends'));
 
-console.log(values[1]);
+// console.log(values[1]);
 
-let fruits = [];
+// let fruits = [];
 
-if(localStorage.getItem('fruits')) {
-    fruits.JSON.parse(localStorage.getItem('fruits'))
-}else {
-    fruits = [];
-}
+// if(localStorage.getItem('fruits')) {
+//     fruits.JSON.parse(localStorage.getItem('fruits'))
+// }else {
+//     fruits = [];
+// }
 
-fruits.push('apple');
-fruits.push('orange');
+// fruits.push('apple');
+// fruits.push('orange');
 
-localStorage.setItem('fruits', JSON.stringify(fruits));
+// localStorage.setItem('fruits', JSON.stringify(fruits));
+// const list = document.getElementById('first');
+// const div = document.getElementById('second');
+// const item = document.querySelector('.item');
 
+// console.log(list.textContent); // just text content 
+// console.log(list.innerHTML); // you get html content
+
+// const ul = document.createElement('ul');
+// const randomVal = 'random value';
+
+// ul.innerHTML = `
+// <li>${randomVal}</li>
+// <li>List item</li>
+// <li>list item</li>
+// `
+// document.body.appendChild(ul);
