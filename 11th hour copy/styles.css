@@ -1,0 +1,14 @@
+.blue {
+  color: pink;
+  background-color: blue;
+}
+
+.red {
+  color: pink;
+  background-color: red;
+}
+
+a {
+  display: inline-block;
+  margin-top: 100vh;
+}
