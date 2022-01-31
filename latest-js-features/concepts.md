@@ -8,8 +8,9 @@
   - property shorthand
   - computed property names
 - for-of operator
-- destructuring array/objects
 - spread operator & rest parameter
+- destructuring array/objects
+
 - Classes
 - Map/Set
 - Promises
@@ -40,7 +41,7 @@
 - Dynamic imports
 - Array.flat()
 - String.trimStart()
-- Object.fromEtnries
+- Object.fromEntries
 - Global This
 - Function.toString()
 - Optional catch binding
